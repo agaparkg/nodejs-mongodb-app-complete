@@ -49,3 +49,11 @@ Navigate to `http://localhost:8000` to see the output
   DELETE - /users/:id (req.params.id)
   PATCH - /users/:id (req.params.id & provide the data in the body)
   ```
+
+  ### Firestore References
+
+  `getDocs` and `getDoc` - https://firebase.google.com/docs/firestore/query-data/get-data
+
+  `addDoc` and `setDoc` - https://firebase.google.com/docs/firestore/manage-data/add-data
+
+  `deleteDoc` - https://firebase.google.com/docs/firestore/manage-data/delete-data
