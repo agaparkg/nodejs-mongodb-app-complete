@@ -50,10 +50,10 @@ Navigate to `http://localhost:3000/api` to see the output
   PATCH - /users/:id (req.params.id & provide the data in the body)
   ```
 
-  ### Firestore References
+  ### Mongoose References
 
-  `getDocs` and `getDoc` - https://firebase.google.com/docs/firestore/query-data/get-data
+- Mongoose Quick Start
+  [https://mongoosejs.com/docs/index.html](https://mongoosejs.com/docs/index.html)
 
-  `addDoc` and `setDoc` - https://firebase.google.com/docs/firestore/manage-data/add-data
-
-  `deleteDoc` - https://firebase.google.com/docs/firestore/manage-data/delete-data
+- Queries
+  [https://mongoosejs.com/docs/queries.html](https://mongoosejs.com/docs/queries.html)
