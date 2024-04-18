@@ -19,6 +19,7 @@ const UserSchema = mongoose.Schema(
     location: {
       type: String,
       required: false,
+      default: "",
       // required: [true, "User name is required"]
     },
   },
