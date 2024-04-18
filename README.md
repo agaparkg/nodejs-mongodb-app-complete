@@ -14,7 +14,7 @@
 % git clone  https://github.com/<github_username>/<project_name>
 ```
 
-> Example: https://github.com/agaparkg/nodejs-firebase-app-complete
+> Example: https://github.com/agaparkg/nodejs-mongodb-app-complete
 
 - Install dependencies
 
@@ -30,7 +30,7 @@
 % npm run dev
 ```
 
-Navigate to `http://localhost:8000` to see the output
+Navigate to `http://localhost:3000/api` to see the output
 
 ![home](/images/home.png)
 

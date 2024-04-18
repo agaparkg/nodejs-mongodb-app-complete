@@ -9,7 +9,7 @@ router.get("/", async (req, res) => {
   res.status(200).json({ message: "Home path is working!" });
 });
 
-router.get("/users", async (req, res) => {
+router.get("/users", verifyToken, async (req, res) => {
   try {
     const users = await Users.find({});
     res.status(200).json({
