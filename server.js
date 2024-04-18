@@ -7,6 +7,8 @@ const router = require("./routes/api-routes");
 // https = 443
 const port = process.env.PORT || 3000;
 
+// console.log(process.env);
+
 // Middleware
 app.use(express.json());
 app.use("/api", router);
