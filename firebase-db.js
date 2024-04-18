@@ -3,7 +3,6 @@ const { initializeApp } = require("firebase/app");
 const { getFirestore } = require("firebase/firestore");
 const dotenv = require("dotenv");
 dotenv.config();
-console.log(process.env);
 // const { getAnalytics } = require("firebase/analytics");
 
 // TODO: Add SDKs for Firebase products that you want to use
