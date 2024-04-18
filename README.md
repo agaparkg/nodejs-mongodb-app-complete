@@ -1,4 +1,4 @@
-# Nodejs Backend API with Firebase (including Cloud Firestore Database)
+# Nodejs Backend API with Mongoose (connx to the MongoDB Atlas Database)
 
 # Pre-requisites
 
